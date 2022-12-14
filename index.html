@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+
+<div class="typewriter">
+  <h1>Bienvenido al GitHub de TripleYei</h1>
+  <a href="https://github.com/TripleYei"> Ir al GitHub</a>
+</div>
+
+
+</body>
+
+<style>
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+.typewriter a{
+  font-size: 2em;
+  color:white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.typewriter a:hover{
+  background-color: black;
+  padding: 25px;
+  color:white;
+  font-size: 2em;
+
+}
+
+
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+</style>
+</html>
